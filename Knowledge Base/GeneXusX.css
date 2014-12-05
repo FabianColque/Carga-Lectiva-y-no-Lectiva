@@ -17,7 +17,7 @@
 	background: transparent repeat-x scroll;
 }
 .BaseRBtn .BtnText{
-	border: 0px;
+	border: 1px;
 	background: transparent;
 	margin:0;
 	white-space:nowrap;
