@@ -31,7 +31,7 @@
 	border-right-color: #D3D4D3;
 	border-top-color: #D3D4D3;
 	border-style: inset;
-	border-width: 0px;
+	border-width: 1px;
 	font-family: Verdana, Arial;
 	font-size: 9pt;
 	font-style: normal;
