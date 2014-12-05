@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+   <Charset>iso-8859-1</Charset>
+   <Path>file:///C:/Program Files (x86)/Artech/GeneXus/GeneXusXEv1Trial/</Path>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>CargaLectiva</ObjName>
+      <ObjDesc>Carga Lectiva</ObjDesc>
+      <ObjLink>cargalectiva.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>Docente</ObjName>
+      <ObjDesc>Docente</ObjDesc>
+      <ObjLink>docente.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>Categoria</ObjName>
+      <ObjDesc>Categoria</ObjDesc>
+      <ObjLink>categoria.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>Escuela</ObjName>
+      <ObjDesc>Escuela</ObjDesc>
+      <ObjLink>escuela.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>Asignatura</ObjName>
+      <ObjDesc>Asignatura</ObjDesc>
+      <ObjLink>asignatura.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>Docente</ObjName>
+      <ObjDesc>Docente</ObjDesc>
+      <ObjLink>docente.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>0</ObjCls>
+      <ObjName>Usuarios</ObjName>
+      <ObjDesc>Usuarios</ObjDesc>
+      <ObjLink>usuarios.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>RegistrarUsuario</ObjName>
+      <ObjDesc>Registrar Usuario</ObjDesc>
+      <ObjLink>registrarusuario.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Main</ObjName>
+      <ObjDesc>Main</ObjDesc>
+      <ObjLink>main.aspx</ObjLink>
+   </Object>
+</Objects>

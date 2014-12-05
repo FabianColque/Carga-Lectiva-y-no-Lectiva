@@ -1,0 +1,345 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>CargaLectiva</ObjName>
+<ObjDesc>Carga Lectiva </ObjDesc>
+<ObjPgmName>CargaLectiva</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>6</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>6</TableId>
+<TableName>CargaLectiva</TableName>
+<Description>Carga Lectiva por Docente</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>6</TableId>
+<TableName>CargaLectiva</TableName>
+<Description>Carga Lectiva por Docente</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>CargaLectivaId</AttriName>
+<Description> Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>6</TableId>
+<TableName>CargaLectiva</TableName>
+<Description>Carga Lectiva por Docente</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>CargaLectivaFecha</AttriName>
+<Description>Fecha</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>6</TableId>
+<TableName>CargaLectiva</TableName>
+<Description>Carga Lectiva por Docente</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>CargaLectivaFecha</AttriName>
+<Description>Fecha</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>6</TableId>
+<TableName>CargaLectiva</TableName>
+<Description>Carga Lectiva por Docente</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>15</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>15</TableId>
+<TableName>CargaLectivaCargaDetalle</TableName>
+<Description>Carga Detalle</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>15</TableId>
+<TableName>CargaLectivaCargaDetalle</TableName>
+<Description>Carga Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>CargaLectivaId</AttriName>
+<Description> Id</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>CargaDetalleId</AttriName>
+<Description>Carga Detalle Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Docente</TableName>
+<Description>Docente</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>10</TableId>
+<TableName>Asignatura</TableName>
+<Description>Asignatura</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>AsignaturaId</AttriName>
+<Description>Asignatura Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>5</TableId>
+<TableName>Escuela</TableName>
+<Description>Escuela</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>EscuelaId</AttriName>
+<Description>Escuela Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>15</TableId>
+<TableName>CargaLectivaCargaDetalle</TableName>
+<Description>Carga Detalle</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>CargaLectivaId</AttriName>
+<Description> Id</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>CargaDetalleId</AttriName>
+<Description>Carga Detalle Id</Description></Attribute>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>Grupo</AttriName>
+<Description>Grupo</Description></Attribute>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>Teoria</AttriName>
+<Description>Teoria</Description></Attribute>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>Practica</AttriName>
+<Description>Practica</Description></Attribute>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>Laboratorio</AttriName>
+<Description>Laboratorio</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>Observacion</AttriName>
+<Description>Observacion</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>AsignaturaId</AttriName>
+<Description>Asignatura Id</Description></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>EscuelaId</AttriName>
+<Description>Escuela Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>15</TableId>
+<TableName>CargaLectivaCargaDetalle</TableName>
+<Description>Carga Detalle</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>Grupo</AttriName>
+<Description>Grupo</Description></Attribute>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>Teoria</AttriName>
+<Description>Teoria</Description></Attribute>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>Practica</AttriName>
+<Description>Practica</Description></Attribute>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>Laboratorio</AttriName>
+<Description>Laboratorio</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>Observacion</AttriName>
+<Description>Observacion</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>AsignaturaId</AttriName>
+<Description>Asignatura Id</Description></Attribute>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>EscuelaId</AttriName>
+<Description>Escuela Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>15</TableId>
+<TableName>CargaLectivaCargaDetalle</TableName>
+<Description>Carga Detalle</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>5</TableId>
+<TableName>Escuela</TableName>
+<Description>Escuela</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>10</ObjId>
+<ObjName>Gx0050</ObjName>
+<ObjPgmName>Gx0050</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>EscuelaId</AttriName>
+<Description>Escuela Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>10</TableId>
+<TableName>Asignatura</TableName>
+<Description>Asignatura</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>12</ObjId>
+<ObjName>Gx00A0</ObjName>
+<ObjPgmName>Gx00A0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>AsignaturaId</AttriName>
+<Description>Asignatura Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>14</TableId>
+<TableName>Docente</TableName>
+<Description>Docente</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>16</ObjId>
+<ObjName>Gx00E0</ObjName>
+<ObjPgmName>Gx00E0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>15</TableId>
+<TableName>CargaLectivaCargaDetalle</TableName>
+<Description>Carga Detalle</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>17</ObjId>
+<ObjName>Gx00F1</ObjName>
+<ObjPgmName>Gx00F1</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>CargaLectivaId</AttriName>
+<Description> Id</Description></Attribute></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>CargaDetalleId</AttriName>
+<Description>Carga Detalle Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>6</TableId>
+<TableName>CargaLectiva</TableName>
+<Description>Carga Lectiva por Docente</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>8</ObjId>
+<ObjName>Gx0060</ObjName>
+<ObjPgmName>Gx0060</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>CargaLectivaId</AttriName>
+<Description> Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

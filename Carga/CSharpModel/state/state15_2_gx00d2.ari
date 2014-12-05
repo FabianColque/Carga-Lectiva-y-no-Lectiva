@@ -1,0 +1,17 @@
+current_obj_i(2,web,15).
+ 
+called_tree_i(13,15,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx00d2,[],[],[],15).
+ 
+ 
+obj_parms_i([ 'short aP0_pCargaLectivaId','short aP1_pDocenteId','short aP2_pHorasId' ],[ [ 'Pcargalectivaid',in ],[ 'Pdocenteid',in ],[ 'Phorasid',out ] ]).
+ 
+ 
+ 
+ 

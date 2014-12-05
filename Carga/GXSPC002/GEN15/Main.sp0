@@ -1,0 +1,639 @@
+spec_i([ web,20,'Main','Main',0,spa,'10_1_7-53786' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Menudata' ] ]).
+ 
+lac_i(2,[ [ 'Menudata' ] ]).
+ 
+ 
+lits_i('Sistema de Carga Lectiva y No Lectiva 2014',5,10).
+lits_i('EPIS - UNSA 2014',5,10).
+ 
+cls_i([ 0,0 ],[ 5,51 ]).
+ 
+pos_i('Menudata',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','LAP_CSP')).
+rule_i(0,datastore(1,'CS_DBNAME','Carga')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Main')).
+rule_i(0,prop('ObjName','Main')).
+rule_i(0,maingen(15)).
+rule_i(0,prop('PGMTYPE',main)).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',9 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',8 ]).
+attri_i('Menudata2',[ 'MenuData2',o('MenuData2'),0,0,'',0,'Menu Data2','',7 ]).
+attri_i('Menudataitem',[ 'MenuDataItem',o('MenuData.MenuDataItem'),0,0,'',0,'Menu Data Item','',6 ]).
+attri_i('Menudata',[ 'MenuData',o(objectcollection('MenuData.MenuDataItem')),0,0,'',0,'Menu Data','',5 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(2,'Menudata',yes,udp,o(33,'DPDDolphinMenuData2'),[],4,'Menudata',[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,3).
+b_group_i(2,2,lit,0,4,8).
+b_group_i(2,3,lit,0,9,12).
+b_group_i(2,4,lit,0,13,0).
+ 
+b_line_i(3,2,1,cmd,3,[ t('',143,3,0),t('''DOLPHINSTYLEMENUSAMPLE''',3,3,6) ]).
+b_line_i(4,2,2,cmd,3,[ t('',107,3,0),t('Menudata',23,3,0),t(=,10,3,0),t('udp(',1,3,0),t('Menudata',3,3,0),t(4,3,3,0),t(')',4,3,0) ]).
+b_line_i(5,2,2,cmd,3,[ t('',144,3,0) ]).
+b_line_i(8,2,2,cmd,3,[ t('',146,3,0),t([ t('Dolphinstylemenu2',3,8,8),t('Dolphinitemclicked',3,8,26) ],29,8,26) ]).
+b_line_i(9,2,3,cmd,3,[ t('',141,3,0),t('"Selected item Title : "',3,9,6),t(+,5,3,31),t([ t('Menudataitem',23,9,33),t('Menutitle',3,9,47) ],29,9,47),t(')',4,3,56) ]).
+b_line_i(10,2,3,cmd,3,[ t('',147,3,0) ]).
+b_line_i(12,2,3,cmd,3,[ t('',146,3,0),t('Start',3,12,7) ]).
+b_line_i(13,2,4,cmd,3,[ t('',145,3,0),t('''DOLPHINSTYLEMENUSAMPLE''',3,13,5) ]).
+b_line_i(14,2,4,cmd,3,[ t('',147,3,0) ]).
+b_line_i(1000,2,4,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,4,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,4,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+html_i(45,html('<P/>')).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,table(5))).
+html_sub_i(5,0,html_i(0,html('<TBODY>'))).
+html_sub_i(5,6,html_i(1,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(6,8,html_i(1,cell(8))).
+html_sub_i(8,0,html_i(0,html('&nbsp; '))).
+html_sub_i(8,9,html_i(1,t('Sistema de Carga Lectiva y No Lectiva 2014',3))).
+html_sub_i(6,10,html_i(2,cell(10))).
+html_sub_i(10,11,html_i(0,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-14'))).
+html_sub_i(5,0,html_i(2,html('</TBODY>'))).
+html_sub_i(4,12,html_i(1,table(12))).
+html_sub_i(12,0,html_i(0,html('<TBODY/>'))).
+html_sub_i(2,13,html_i(2,row(13))).
+html_sub_i(13,14,html_i(0,cell(14))).
+html_sub_i(14,15,html_i(0,usercontrol(15))).
+html_sub_i(2,16,html_i(3,row(16))).
+html_sub_i(16,17,html_i(0,cell(17))).
+html_sub_i(16,18,html_i(1,cell(18))).
+html_sub_i(18,19,html_i(0,table(19))).
+html_sub_i(19,0,html_i(0,html('<TBODY>'))).
+html_sub_i(19,20,html_i(1,row(20))).
+html_sub_i(20,21,html_i(0,cell(21))).
+html_sub_i(21,22,html_i(0,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-63'))).
+html_sub_i(19,0,html_i(2,html('</TBODY>'))).
+html_sub_i(16,23,html_i(2,cell(23))).
+html_sub_i(2,24,html_i(4,row(24))).
+html_sub_i(24,25,html_i(0,cell(25))).
+html_sub_i(25,26,html_i(0,table(26))).
+html_sub_i(26,0,html_i(0,html('<TBODY>'))).
+html_sub_i(26,27,html_i(1,row(27))).
+html_sub_i(27,28,html_i(0,cell(28))).
+html_sub_i(26,0,html_i(2,html('</TBODY>'))).
+html_sub_i(25,29,html_i(1,table(29))).
+html_sub_i(29,0,html_i(0,html('<TBODY>'))).
+html_sub_i(29,30,html_i(1,row(30))).
+html_sub_i(30,31,html_i(0,cell(31))).
+html_sub_i(29,0,html_i(2,html('</TBODY>'))).
+html_sub_i(25,32,html_i(2,table(32))).
+html_sub_i(32,0,html_i(0,html('<TBODY>'))).
+html_sub_i(32,33,html_i(1,row(33))).
+html_sub_i(33,34,html_i(0,cell(34))).
+html_sub_i(32,0,html_i(2,html('</TBODY>'))).
+html_sub_i(25,35,html_i(3,table(35))).
+html_sub_i(35,0,html_i(0,html('<TBODY>'))).
+html_sub_i(35,36,html_i(1,row(36))).
+html_sub_i(36,37,html_i(0,cell(37))).
+html_sub_i(37,38,html_i(0,t('EPIS - UNSA 2014',3))).
+html_sub_i(35,0,html_i(2,html('</TBODY>'))).
+html_sub_i(25,39,html_i(4,table(39))).
+html_sub_i(39,0,html_i(0,html('<TBODY>'))).
+html_sub_i(39,40,html_i(1,row(40))).
+html_sub_i(40,41,html_i(0,cell(41))).
+html_sub_i(39,0,html_i(2,html('</TBODY>'))).
+html_sub_i(25,42,html_i(5,table(42))).
+html_sub_i(42,0,html_i(0,html('<TBODY>'))).
+html_sub_i(42,43,html_i(1,row(43))).
+html_sub_i(43,44,html_i(0,cell(44))).
+html_sub_i(42,0,html_i(2,html('</TBODY>'))).
+html_sub_i(2,0,html_i(5,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(2,'Id','Table4',v,[ str ]).
+html_comp_i(2,'Class','Table95',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','0',v,[ str ]).
+html_comp_i(2,'Cellspacing','0',v,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Colspan',3,v,[ num ]).
+html_comp_i(5,'Id','Table1',v,[ str ]).
+html_comp_i(5,'Class','TableTop',v,[ str ]).
+html_comp_i(5,'Title','',d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Backgroundgx','',d,[ str ]).
+html_comp_i(5,'Bgcolor',rgb(84,117,134),d,[ color ]).
+html_comp_i(5,'Border','0',v,[ str ]).
+html_comp_i(5,'Bordercolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(5,'Cellpadding','0',v,[ str ]).
+html_comp_i(5,'Cellspacing','0',v,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Rules',none,d,[ str ]).
+html_comp_i(9,'Caption','Sistema de Carga Lectiva y No Lectiva 2014',d,[ str ]).
+html_comp_i(9,'Id','Textblockheader1',v,[ str ]).
+html_comp_i(9,'Class','TextBlockHeader',v,[ str ]).
+html_comp_i(9,'Event','',d,[ str ]).
+html_comp_i(9,'Returnonclick',0,d,[ bool ]).
+html_comp_i(9,'Gxformat',0,d,[ num ]).
+html_comp_i(9,'Title','',d,[ str ]).
+html_comp_i(9,'Fill',-1,d,[ bool ]).
+html_comp_i(9,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(9,'Forecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(9,'Font',font('Microsoft Sans Serif',18,[]),d,[ font ]).
+html_comp_i(10,'Align',right,v,[ str ]).
+html_comp_i(11,'Id','Image1',v,[ str ]).
+html_comp_i(11,'Class','HeaderImage1',v,[ str ]).
+html_comp_i(11,src,i(98,'7326b96a-20b7-4973-8d71-35094049767d'),v,[ image ]).
+html_comp_i(11,lowsrc,'',d,[ str ]).
+html_comp_i(11,'Returnonclick',0,d,[ bool ]).
+html_comp_i(11,'Eventgx','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Border','0',d,[ str ]).
+html_comp_i(11,'Alt','',d,[ str ]).
+html_comp_i(11,'Title','',d,[ str ]).
+html_comp_i(11,'Hspace',0,v,[ num ]).
+html_comp_i(11,'Vspace',0,d,[ num ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Usemap','',d,[ str ]).
+html_comp_i(12,'Id','Table2',v,[ str ]).
+html_comp_i(12,'Class','TableTopMenu',v,[ str ]).
+html_comp_i(12,'Title','',d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Backgroundgx','',d,[ str ]).
+html_comp_i(12,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(12,'Border','0',v,[ str ]).
+html_comp_i(12,'Bordercolor',rgb(84,117,134),d,[ color ]).
+html_comp_i(12,'Cellpadding','1',d,[ str ]).
+html_comp_i(12,'Cellspacing','2',d,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(100,'%'),v,[ measure ]).
+html_comp_i(12,'Rules',none,v,[ str ]).
+html_comp_i(14,'Height',measure(14,px),v,[ measure ]).
+html_comp_i(14,'Colspan',3,v,[ num ]).
+html_comp_i(15,'Usercontroltype','DolphinStyleMenu',d,[ str ]).
+html_comp_i(15,'Constructorname','DolphinStyleMenu',d,[ str ]).
+html_comp_i(15,'Showmethodname',show,d,[ str ]).
+html_comp_i(15,'Controlname','DolphinStyleMenu2',v,[ str ]).
+html_comp_i(15,'Width','169',d,[ str ]).
+html_comp_i(15,'Height','60',d,[ str ]).
+html_comp_i(15,'Menudata',[ t('Menudata',23) ],v,[ params ]).
+html_comp_i(15,'Selecteditem',[ t('Menudataitem',23) ],v,[ params ]).
+html_comp_i(15,'Setmenudata','SetMenuData',d,[ str ]).
+html_comp_i(15,'Getmenudata','GetMenuData',d,[ str ]).
+html_comp_i(15,'Setselecteditem','SetSelectedItem',d,[ str ]).
+html_comp_i(15,'Getselecteditem','GetSelectedItem',d,[ str ]).
+html_comp_i(15,'Visible',-1,d,[ bool ]).
+html_comp_i(15,'Csssupportfiles',[ [ t('''DolphinStyleMenu\dolphin.css''',3) ] ],d,[ params ]).
+html_comp_i(15,'Jssupportfiles',[ [ t('''DolphinStyleMenu\dolphin.js''',3) ],[ t('''DolphinStyleMenu\DolphinStyleMenuRender.js''',3) ] ],d,[ params ]).
+html_comp_i(15,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(15,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(17,'Height',measure(34,px),v,[ measure ]).
+html_comp_i(17,'Width',measure(0,px),v,[ measure ]).
+html_comp_i(18,'Width',measure(100,'%'),v,[ measure ]).
+html_comp_i(19,'Id','Table5',v,[ str ]).
+html_comp_i(19,'Class','ViewTable',v,[ str ]).
+html_comp_i(19,'Title','',d,[ str ]).
+html_comp_i(19,'Align',left,d,[ str ]).
+html_comp_i(19,'Backgroundgx','',d,[ str ]).
+html_comp_i(19,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(19,'Border','0',d,[ str ]).
+html_comp_i(19,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(19,'Cellpadding','1',d,[ str ]).
+html_comp_i(19,'Cellspacing','2',d,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Rules',none,d,[ str ]).
+html_comp_i(22,'Id','Image2',v,[ str ]).
+html_comp_i(22,'Class','Image',v,[ str ]).
+html_comp_i(22,src,i(98,'50157161-eb5d-422d-b33d-b02e4465ec55'),v,[ image ]).
+html_comp_i(22,lowsrc,'',d,[ str ]).
+html_comp_i(22,'Returnonclick',0,d,[ bool ]).
+html_comp_i(22,'Eventgx','',d,[ str ]).
+html_comp_i(22,'Height',measure(720,px),v,[ measure ]).
+html_comp_i(22,'Width',measure(1400,px),v,[ measure ]).
+html_comp_i(22,'Border','0',d,[ str ]).
+html_comp_i(22,'Alt','',d,[ str ]).
+html_comp_i(22,'Title','',d,[ str ]).
+html_comp_i(22,'Hspace',0,v,[ num ]).
+html_comp_i(22,'Vspace',0,d,[ num ]).
+html_comp_i(22,'Align',left,d,[ str ]).
+html_comp_i(22,'Usemap','',d,[ str ]).
+html_comp_i(23,'Width',measure(0,px),v,[ measure ]).
+html_comp_i(25,'Colspan',3,v,[ num ]).
+html_comp_i(26,'Id','Table6',v,[ str ]).
+html_comp_i(26,'Class','HorizontalSpace',v,[ str ]).
+html_comp_i(26,'Title','',d,[ str ]).
+html_comp_i(26,'Align',left,d,[ str ]).
+html_comp_i(26,'Backgroundgx','',d,[ str ]).
+html_comp_i(26,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(26,'Border','0',d,[ str ]).
+html_comp_i(26,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(26,'Cellpadding','1',d,[ str ]).
+html_comp_i(26,'Cellspacing','2',d,[ str ]).
+html_comp_i(26,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Rules',none,d,[ str ]).
+html_comp_i(29,'Id','Table7',v,[ str ]).
+html_comp_i(29,'Class','HorizontalLine',v,[ str ]).
+html_comp_i(29,'Title','',d,[ str ]).
+html_comp_i(29,'Align',left,d,[ str ]).
+html_comp_i(29,'Backgroundgx','',d,[ str ]).
+html_comp_i(29,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(29,'Border','0',d,[ str ]).
+html_comp_i(29,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(29,'Cellpadding','0',v,[ str ]).
+html_comp_i(29,'Cellspacing','0',v,[ str ]).
+html_comp_i(29,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Rules',none,d,[ str ]).
+html_comp_i(32,'Id','Table8',v,[ str ]).
+html_comp_i(32,'Class','HorizontalSpace',v,[ str ]).
+html_comp_i(32,'Title','',d,[ str ]).
+html_comp_i(32,'Align',left,d,[ str ]).
+html_comp_i(32,'Backgroundgx','',d,[ str ]).
+html_comp_i(32,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(32,'Border','0',d,[ str ]).
+html_comp_i(32,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(32,'Cellpadding','0',v,[ str ]).
+html_comp_i(32,'Cellspacing','0',v,[ str ]).
+html_comp_i(32,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(32,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(32,'Rules',none,d,[ str ]).
+html_comp_i(35,'Id','Table3',v,[ str ]).
+html_comp_i(35,'Class','TableBottom',v,[ str ]).
+html_comp_i(35,'Title','',d,[ str ]).
+html_comp_i(35,'Align',left,d,[ str ]).
+html_comp_i(35,'Backgroundgx','',d,[ str ]).
+html_comp_i(35,'Bgcolor',rgb(205,228,236),d,[ color ]).
+html_comp_i(35,'Border','0',d,[ str ]).
+html_comp_i(35,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(35,'Cellpadding','1',d,[ str ]).
+html_comp_i(35,'Cellspacing','2',d,[ str ]).
+html_comp_i(35,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(35,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(35,'Rules',none,d,[ str ]).
+html_comp_i(36,'Align',left,v,[ str ]).
+html_comp_i(37,'Align',center,v,[ str ]).
+html_comp_i(38,'Caption','EPIS - UNSA 2014',d,[ str ]).
+html_comp_i(38,'Id','Textblock1',v,[ str ]).
+html_comp_i(38,'Class','SmallText',v,[ str ]).
+html_comp_i(38,'Event','',d,[ str ]).
+html_comp_i(38,'Returnonclick',0,d,[ bool ]).
+html_comp_i(38,'Gxformat',0,d,[ num ]).
+html_comp_i(38,'Title','',d,[ str ]).
+html_comp_i(38,'Fill',-1,d,[ bool ]).
+html_comp_i(38,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(38,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(38,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(39,'Id','Table9',v,[ str ]).
+html_comp_i(39,'Class','HorizontalSpace',v,[ str ]).
+html_comp_i(39,'Title','',d,[ str ]).
+html_comp_i(39,'Align',left,d,[ str ]).
+html_comp_i(39,'Backgroundgx','',d,[ str ]).
+html_comp_i(39,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(39,'Border','0',d,[ str ]).
+html_comp_i(39,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(39,'Cellpadding','0',v,[ str ]).
+html_comp_i(39,'Cellspacing','0',v,[ str ]).
+html_comp_i(39,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(39,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(39,'Rules',none,d,[ str ]).
+html_comp_i(42,'Id','Table10',v,[ str ]).
+html_comp_i(42,'Class','HorizontalLine',v,[ str ]).
+html_comp_i(42,'Title','',d,[ str ]).
+html_comp_i(42,'Align',left,d,[ str ]).
+html_comp_i(42,'Backgroundgx','',d,[ str ]).
+html_comp_i(42,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(42,'Border','0',d,[ str ]).
+html_comp_i(42,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(42,'Cellpadding','0',v,[ str ]).
+html_comp_i(42,'Cellspacing','0',v,[ str ]).
+html_comp_i(42,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(42,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(42,'Rules',none,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(9,1,t('Sistema de Carga Lectiva y No Lectiva 2014',3),[ ctlname('Textblockheader1') ]).
+lit_i(11,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-14'),[ ctlname('Image1') ]).
+lit_i(5,1,table(5),[ ctlname('Table1') ]).
+lit_i(12,1,table(12),[ ctlname('Table2') ]).
+lit_i(15,1,usercontrol(15),[ ctlname('Dolphinstylemenu2'),ctrltype(dolphinstylemenu),el([ t('Menudata',23),t('Menudataitem',23) ]),containers([]) ]).
+lit_i(22,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-63'),[ ctlname('Image2') ]).
+lit_i(19,1,table(19),[ ctlname('Table5') ]).
+lit_i(26,1,table(26),[ ctlname('Table6') ]).
+lit_i(29,1,table(29),[ ctlname('Table7') ]).
+lit_i(32,1,table(32),[ ctlname('Table8') ]).
+lit_i(38,1,t('EPIS - UNSA 2014',3),[ ctlname('Textblock1') ]).
+lit_i(35,1,table(35),[ ctlname('Table3') ]).
+lit_i(39,1,table(39),[ ctlname('Table9') ]).
+lit_i(42,1,table(42),[ ctlname('Table10') ]).
+lit_i(2,1,table(2),[ ctlname('Table4') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,3,0 ],name,'MenuData').
+struct_dt_i([ 26,3,0 ],namespace,'Carga').
+struct_dt_i([ 26,3,0 ],'ObjName','MenuData').
+struct_dt_i([ 26,3,0 ],'ObjDesc','Menu Data').
+struct_dt_i([ 26,3,0 ],'ExternalName','MenuData').
+struct_dt_i([ 26,3,0 ],'ExternalNamespace','Carga').
+struct_dt_i([ 26,3,0 ],collection,'True').
+struct_dt_i([ 26,3,0 ],datatype,[ 26,3,3 ]).
+struct_dt_i([ 26,3,3 ],name,'MenuDataItem').
+struct_dt_i([ 26,3,3 ],namespace,'Carga.MenuData').
+struct_dt_i([ 26,4,0 ],name,'MenuData2').
+struct_dt_i([ 26,4,0 ],namespace,'Carga').
+struct_dt_i([ 26,4,0 ],'ObjName','MenuData2').
+struct_dt_i([ 26,4,0 ],'ObjDesc','Menu Data2').
+struct_dt_i([ 26,4,0 ],'ExternalName','MenuData2').
+struct_dt_i([ 26,4,0 ],'ExternalNamespace','Carga').
+struct_dt_i([ 26,3,0 ],fullname,'MenuData').
+struct_dt_i([ 26,3,3 ],fullname,'MenuData.MenuDataItem').
+struct_dt_i([ 26,4,0 ],fullname,'MenuData2').
+ 
+struct_dt_elem_i([ 26,3,3 ],1,name,'Menuid').
+struct_dt_elem_i([ 26,3,3 ],1,camelname,'MenuId').
+struct_dt_elem_i([ 26,3,3 ],1,length,4).
+struct_dt_elem_i([ 26,3,3 ],1,decimals,0).
+struct_dt_elem_i([ 26,3,3 ],1,sign,0).
+struct_dt_elem_i([ 26,3,3 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,3 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,3 ],1,collection,'False').
+struct_dt_elem_i([ 26,3,3 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,3,3 ],1,'XmlName','').
+struct_dt_elem_i([ 26,3,3 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,3 ],1,soaptype,'').
+struct_dt_elem_i([ 26,3,3 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,3 ],2,name,'Menutitle').
+struct_dt_elem_i([ 26,3,3 ],2,camelname,'MenuTitle').
+struct_dt_elem_i([ 26,3,3 ],2,length,20).
+struct_dt_elem_i([ 26,3,3 ],2,decimals,0).
+struct_dt_elem_i([ 26,3,3 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,3 ],2,pic,'').
+struct_dt_elem_i([ 26,3,3 ],2,collection,'False').
+struct_dt_elem_i([ 26,3,3 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,3,3 ],2,'XmlName','').
+struct_dt_elem_i([ 26,3,3 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,3 ],2,soaptype,'').
+struct_dt_elem_i([ 26,3,3 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,3 ],3,name,'Menudescription').
+struct_dt_elem_i([ 26,3,3 ],3,camelname,'MenuDescription').
+struct_dt_elem_i([ 26,3,3 ],3,length,40).
+struct_dt_elem_i([ 26,3,3 ],3,decimals,0).
+struct_dt_elem_i([ 26,3,3 ],3,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,3,3 ],3,pic,'').
+struct_dt_elem_i([ 26,3,3 ],3,collection,'False').
+struct_dt_elem_i([ 26,3,3 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,3,3 ],3,'XmlName','').
+struct_dt_elem_i([ 26,3,3 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,3 ],3,soaptype,'').
+struct_dt_elem_i([ 26,3,3 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,3 ],4,name,'Menuurl').
+struct_dt_elem_i([ 26,3,3 ],4,camelname,'MenuURL').
+struct_dt_elem_i([ 26,3,3 ],4,length,100).
+struct_dt_elem_i([ 26,3,3 ],4,decimals,0).
+struct_dt_elem_i([ 26,3,3 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,3,3 ],4,pic,'').
+struct_dt_elem_i([ 26,3,3 ],4,collection,'False').
+struct_dt_elem_i([ 26,3,3 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,3,3 ],4,'XmlName','').
+struct_dt_elem_i([ 26,3,3 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,3 ],4,soaptype,'').
+struct_dt_elem_i([ 26,3,3 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,4,0 ],1,name,'Menuid').
+struct_dt_elem_i([ 26,4,0 ],1,camelname,'MenuId').
+struct_dt_elem_i([ 26,4,0 ],1,length,4).
+struct_dt_elem_i([ 26,4,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,4,0 ],1,sign,0).
+struct_dt_elem_i([ 26,4,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,4,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,4,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,4,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,4,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,4,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,4,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,4,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,4,0 ],2,name,'Menutitle').
+struct_dt_elem_i([ 26,4,0 ],2,camelname,'MenuTitle').
+struct_dt_elem_i([ 26,4,0 ],2,length,20).
+struct_dt_elem_i([ 26,4,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,4,0 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,4,0 ],2,pic,'').
+struct_dt_elem_i([ 26,4,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,4,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,4,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,4,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,4,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,4,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,4,0 ],3,name,'Menudescription').
+struct_dt_elem_i([ 26,4,0 ],3,camelname,'MenuDescription').
+struct_dt_elem_i([ 26,4,0 ],3,length,40).
+struct_dt_elem_i([ 26,4,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,4,0 ],3,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,4,0 ],3,pic,'').
+struct_dt_elem_i([ 26,4,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,4,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,4,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,4,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,4,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,4,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,4,0 ],4,name,'Menuurl').
+struct_dt_elem_i([ 26,4,0 ],4,camelname,'MenuURL').
+struct_dt_elem_i([ 26,4,0 ],4,length,100).
+struct_dt_elem_i([ 26,4,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,4,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,4,0 ],4,pic,'').
+struct_dt_elem_i([ 26,4,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,4,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,4,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,4,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,4,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,4,0 ],4,'XmlInclude',idXmlIncludeAlways).
+ 
+ 
+ 
+ 
+pgm_parm_i(mnproc,2,'DPDDOLPHINMENUDATA2',[ [ o(objectcollection('MenuData.MenuDataItem')),0,0,0 ] ],[ [ 'ReturnValue',out,[] ] ]).
+ 
+pgm_main_info_i(web,20,'MAIN',[ 15,'MAIN','Main','','','','' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 

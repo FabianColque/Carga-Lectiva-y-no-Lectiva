@@ -1,0 +1,92 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>5</ObjId>
+<ObjName>Gx0030</ObjName>
+<ObjDesc>Selection List Docente</ObjDesc>
+<ObjPgmName>Gx0030</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pdocenteid</VarId>
+<VarName>&amp;pDocenteId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>Docente</TableName>
+<Description>Docente</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IDOCENTE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cdocenteid</VarId>
+<VarName>&amp;cDocenteId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>DocenteNombre</AttriName>
+<Description>Docente Nombre</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cdocentenombre</VarId>
+<VarName>&amp;cDocenteNombre</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>Docente</TableName>
+<Description>Docente</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

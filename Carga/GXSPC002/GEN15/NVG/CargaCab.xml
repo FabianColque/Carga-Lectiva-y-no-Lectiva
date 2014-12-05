@@ -1,0 +1,229 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>CargaCab</ObjName>
+<ObjDesc>Carga Lectiva por Docente</ObjDesc>
+<ObjPgmName>CargaCab</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0043</MsgCode>
+<Message>
+<Token></Token>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>CargaDetId</AttriName>
+<Description>Carga Det Id</Description></Attribute>
+<Token> is not instantiated</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors>
+<Error>
+<MsgCode>spc0052</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>CargaDetId</AttriName>
+<Description>Carga Det Id</Description></Attribute>
+<Token> must be present on the screen or assigned by a rule.</Token></Message></Error>
+<Error>
+<MsgCode>spc0104</MsgCode>
+<Message>
+<Token>Grids are mandatory for all levels but the first one.</Token></Message></Error></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>1</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>CargaCab</TableName>
+<Description>Carga Cab</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>CargaCab</TableName>
+<Description>Carga Cab</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>CargaId</AttriName>
+<Description>Carga Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>CargaCab</TableName>
+<Description>Carga Cab</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>CargaFecha</AttriName>
+<Description>Carga Fecha</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>CargaCabObservacion</AttriName>
+<Description>Carga Cab Observacion</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>CargaCab</TableName>
+<Description>Carga Cab</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>CargaFecha</AttriName>
+<Description>Carga Fecha</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>CargaCabObservacion</AttriName>
+<Description>Carga Cab Observacion</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>CargaCab</TableName>
+<Description>Carga Cab</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>2</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>CargaCabDet</TableName>
+<Description>Det</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>CargaCabDet</TableName>
+<Description>Det</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>CargaId</AttriName>
+<Description>Carga Id</Description></Attribute>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>CargaDetId</AttriName>
+<Description>Carga Det Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>CargaCabDet</TableName>
+<Description>Det</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>CargaId</AttriName>
+<Description>Carga Id</Description></Attribute>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>CargaDetId</AttriName>
+<Description>Carga Det Id</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>Nuevo</AttriName>
+<Description>Nuevo</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>CargaCabDet</TableName>
+<Description>Det</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>Nuevo</AttriName>
+<Description>Nuevo</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>CargaCabDet</TableName>
+<Description>Det</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>2</TableId>
+<TableName>CargaCabDet</TableName>
+<Description>Det</Description></Table>
+<Token>Gx0021</Token>
+<InputParameters>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>CargaId</AttriName>
+<Description>Carga Id</Description></Attribute></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>CargaDetId</AttriName>
+<Description>Carga Det Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>1</TableId>
+<TableName>CargaCab</TableName>
+<Description>Carga Cab</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>Gx0010</ObjName>
+<ObjPgmName>Gx0010</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>CargaId</AttriName>
+<Description>Carga Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

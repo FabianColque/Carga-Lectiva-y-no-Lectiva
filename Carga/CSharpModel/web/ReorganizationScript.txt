@@ -1,0 +1,2 @@
+CREATE TABLE [Usuarios] ([UsuariosNombre] varchar(40) NOT NULL , [UsuariosPassword] varchar(40) NOT NULL , PRIMARY KEY([UsuariosNombre]))
+

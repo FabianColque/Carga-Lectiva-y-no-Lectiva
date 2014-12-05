@@ -1,0 +1,17 @@
+current_obj_i(2,mnu,1).
+ 
+called_tree_i(3,1,0,6).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(menu1,[],[],[],1).
+ 
+ 
+obj_parms_i([],[]).
+ 
+ 
+ 
+ 

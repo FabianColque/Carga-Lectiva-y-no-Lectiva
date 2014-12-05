@@ -1,0 +1,33 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>RegistrarUsuarioProc</ObjName>
+<ObjDesc>Registrar Usuario Proc</ObjDesc>
+<ObjPgmName>RegistrarUsuarioProc</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>UsuariosNombre</AttriName>
+<Description>Usuarios Nombre</Description></Attribute></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Attribute>
+<AttriId>44</AttriId>
+<AttriName>UsuariosPassword</AttriName>
+<Description>Usuarios Password</Description></Attribute></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

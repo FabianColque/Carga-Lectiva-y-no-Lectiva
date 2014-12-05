@@ -1,0 +1,126 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>11</ObjId>
+<ObjName>Gx0081</ObjName>
+<ObjDesc>Selection List Linea</ObjDesc>
+<ObjPgmName>Gx0081</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Pcargalectivaid</VarId>
+<VarName>&amp;pCargaLectivaId</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pdocenteid</VarId>
+<VarName>&amp;pDocenteId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>CargaLectivaLinea</TableName>
+<Description>Linea</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>CargaLectivaId</AttriName>
+<Description>Carga Lectiva Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICARGALECTIVALINEA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>CargaLectivaId</AttriName>
+<Description>Carga Lectiva Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pcargalectivaid</VarId>
+<VarName>&amp;pCargaLectivaId</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cdocenteid</VarId>
+<VarName>&amp;cDocenteId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>CargaLectivaId</AttriName>
+<Description>Carga Lectiva Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pcargalectivaid</VarId>
+<VarName>&amp;pCargaLectivaId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>DocenteNombres</AttriName>
+<Description>Docente Nombres</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cdocentenombres</VarId>
+<VarName>&amp;cDocenteNombres</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>CargaLectivaLinea</TableName>
+<Description>Linea</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>CargaLectivaId</AttriName>
+<Description>Carga Lectiva Id</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

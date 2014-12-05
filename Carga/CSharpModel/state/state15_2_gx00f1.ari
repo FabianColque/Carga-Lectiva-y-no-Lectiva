@@ -1,0 +1,17 @@
+current_obj_i(2,web,17).
+ 
+called_tree_i(13,17,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx00f1,[],[],[],17).
+ 
+ 
+obj_parms_i([ 'short aP0_pCargaLectivaId','short aP1_pCargaDetalleId' ],[ [ 'Pcargalectivaid',in ],[ 'Pcargadetalleid',out ] ]).
+ 
+ 
+ 
+ 

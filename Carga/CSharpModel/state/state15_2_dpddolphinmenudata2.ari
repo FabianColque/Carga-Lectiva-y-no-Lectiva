@@ -1,0 +1,16 @@
+current_obj_i(2,mnproc,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(dpddolphinmenudata2,[],[],[],2).
+ 
+ 
+obj_parms_i([ 'IGxCollection aP0_Gxm2rootcol' ],[ [ 'Gxm2rootcol',out ] ]).
+ 
+ 
+ 
+ 

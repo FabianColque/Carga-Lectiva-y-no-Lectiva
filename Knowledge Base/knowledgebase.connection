@@ -1,0 +1,10 @@
+<ConnectionInformation>
+	<DBName>GX_KB_Knowledge Base</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>LAP_CSP</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Models\Knowledge Base</Directory>
+	<DataFile>GX_KB_Knowledge Base.mdf</DataFile>
+	<LogFile>GX_KB_Knowledge Base_log.LDF</LogFile>
+	<HostName>LAP_CSP</HostName>
+</ConnectionInformation>

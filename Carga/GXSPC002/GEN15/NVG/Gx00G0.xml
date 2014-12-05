@@ -1,0 +1,94 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>19</ObjId>
+<ObjName>Gx00G0</ObjName>
+<ObjDesc>Selection List Usuarios</ObjDesc>
+<ObjPgmName>Gx00G0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pusuariosnombre</VarId>
+<VarName>&amp;pUsuariosNombre</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>16</TableId>
+<TableName>Usuarios</TableName>
+<Description>Usuarios</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>UsuariosNombre</AttriName>
+<Description>Usuarios Nombre</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IUSUARIOS</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>UsuariosNombre</AttriName>
+<Description>Usuarios Nombre</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cusuariosnombre</VarId>
+<VarName>&amp;cUsuariosNombre</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>44</AttriId>
+<AttriName>UsuariosPassword</AttriName>
+<Description>Usuarios Password</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cusuariospassword</VarId>
+<VarName>&amp;cUsuariosPassword</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>16</TableId>
+<TableName>Usuarios</TableName>
+<Description>Usuarios</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>UsuariosNombre</AttriName>
+<Description>Usuarios Nombre</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,155 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>5</ObjId>
+<ObjName>Asignatura</ObjName>
+<ObjDesc>Asignatura</ObjDesc>
+<ObjPgmName>Asignatura</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Main>Yes</Main>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>10</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>10</TableId>
+<TableName>Asignatura</TableName>
+<Description>Asignatura</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>10</TableId>
+<TableName>Asignatura</TableName>
+<Description>Asignatura</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>AsignaturaId</AttriName>
+<Description>Asignatura Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>10</TableId>
+<TableName>Asignatura</TableName>
+<Description>Asignatura</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>AsignaturaNombre</AttriName>
+<Description>Asignatura Nombre</Description></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>Creditos</AttriName>
+<Description>Creditos</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>Semestre</AttriName>
+<Description>Semestre</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>HorasTeoria1</AttriName>
+<Description>H. Teoria</Description></Attribute>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>HorasPractica2</AttriName>
+<Description>H. Practica</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>HorasLaboratorio3</AttriName>
+<Description>H. Laboratorio</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>10</TableId>
+<TableName>Asignatura</TableName>
+<Description>Asignatura</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>AsignaturaNombre</AttriName>
+<Description>Asignatura Nombre</Description></Attribute>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>Creditos</AttriName>
+<Description>Creditos</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>Semestre</AttriName>
+<Description>Semestre</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>HorasTeoria1</AttriName>
+<Description>H. Teoria</Description></Attribute>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>HorasPractica2</AttriName>
+<Description>H. Practica</Description></Attribute>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>HorasLaboratorio3</AttriName>
+<Description>H. Laboratorio</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>10</TableId>
+<TableName>Asignatura</TableName>
+<Description>Asignatura</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>15</TableId>
+<TableName>CargaLectivaCargaDetalle</TableName>
+<Description>Carga Detalle</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>AsignaturaId</AttriName>
+<Description>Asignatura Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>10</TableId>
+<TableName>Asignatura</TableName>
+<Description>Asignatura</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>12</ObjId>
+<ObjName>Gx00A0</ObjName>
+<ObjPgmName>Gx00A0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>AsignaturaId</AttriName>
+<Description>Asignatura Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportLog>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>447527b5-9210-4523-898b-5dccb17be60a</Type>
+		<Name>MenuData</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>00000000-0000-0000-0000-000000000008</Type>
+		<Name>DolphinStyleMenu</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+	<RowImport>
+		<Status>Ok</Status>
+		<Type>2a9e9aba-d2de-4801-ae7f-5e3819222daf</Type>
+		<Name>DPDolphinMenuData</Name>
+		<Errors />
+		<Warnings />
+		<Info />
+	</RowImport>
+</ImportLog>

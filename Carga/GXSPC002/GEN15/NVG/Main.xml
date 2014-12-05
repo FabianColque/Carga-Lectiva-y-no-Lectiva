@@ -1,0 +1,30 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>20</ObjId>
+<ObjName>Main</ObjName>
+<ObjDesc>Main</ObjDesc>
+<ObjPgmName>Main</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Main>Yes</Main>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>'DOLPHINSTYLEMENUSAMPLE'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Event>
+<EventName>Dolphinstylemenu2.Dolphinitemclicked</EventName></Event>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

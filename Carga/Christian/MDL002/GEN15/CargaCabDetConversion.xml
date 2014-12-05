@@ -1,0 +1,214 @@
+
+<ReorgSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Table>
+<TableId>2</TableId>
+<TableName>CargaCabDet</TableName>
+<Description>Det</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>CargaCabDet needs conversion</ReorgMsg>
+<ReorgAction>!</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>CargaId</AttriName>
+<Description>Carga Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>2</TableId>
+<TableName>CargaCabDet</TableName>
+<Description>Det</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>CargaId</AttriName>
+<Description>Carga Id</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>CargaDetId</AttriName>
+<Description>Carga Det Id</Description>
+<TakesValueFrom>
+<Table>
+<TableId>2</TableId>
+<TableName>CargaCabDet</TableName>
+<Description>Det</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>CargaDetId</AttriName>
+<Description>Carga Det Id</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>Nuevo</AttriName>
+<Description>Nuevo</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>0</Token></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriChangeType>ni</AttriChangeType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriChangeType>del</AttriChangeType></Attribute></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>CargaCabDet</TableName>
+<Description>Det</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>CargaId</AttriName>
+<Description>Carga Id</Description></Attribute>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>CargaDetId</AttriName>
+<Description>Carga Det Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ICARGACABDET</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>CargaId</AttriName>
+<Description>Carga Id</Description></Attribute>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>CargaDetId</AttriName>
+<Description>Carga Det Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index></Indices>
+<IndicesToDelete>
+<Index>
+<IndexName>ICARGACABDET2</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></IndicesToDelete></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>1</TableId>
+<TableName>CargaCab</TableName>
+<Description>Carga Cab</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>CargaId</AttriName>
+<Description>Carga Id</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>rmv</ChangeType>
+<Table>
+<TableId>3</TableId>
+<TableName>Docente</TableName>
+<Description>Docente</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>DocenteId</AttriName>
+<Description>Docente Id</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>ALTER TABLE [CargaCabDet] ADD [Nuevo] smallint NOT NULL CONSTRAINT NuevoCargaCabDet_DEFAULT DEFAULT convert(int, 0)</Statement>
+<Statement>ALTER TABLE [CargaCabDet] DROP CONSTRAINT NuevoCargaCabDet_DEFAULT</Statement>
+<Statement>DROP INDEX [ICARGACABDET2] ON [CargaCabDet]</Statement>
+<Statement>ALTER TABLE [CargaCabDet] DROP CONSTRAINT [ICARGACABDET2]</Statement>
+<Statement>ALTER TABLE [CargaCabDet] DROP COLUMN [DocenteId]</Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings>
+<Warning>
+<MsgCode>rgz0009</MsgCode>
+<Message>
+<Token>AutoNumber=True ignored. Attribute </Token>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>CargaDetId</AttriName>
+<Description>Carga Det Id</Description></Attribute>
+<Token> is not table </Token>
+<Token>CargaCabDet</Token>
+<Token>'s primary key.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>Nuevo</AttriName>
+<Description>Nuevo</Description></Attribute>
+<Token> does not allow nulls and has not a Initial Value. An empty default value will be used.</Token></Message></Warning></Warnings>
+<Errors></Errors></ReorgSpec>

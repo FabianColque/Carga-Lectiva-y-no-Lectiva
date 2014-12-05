@@ -1,0 +1,24 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Object>
+<ObjCls>33</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>DPDDolphinMenuData2</ObjName>
+<ObjDesc>DPDDolphin Menu Data2</ObjDesc>
+<ObjPgmName>DPDDolphinMenuData2</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Token>MenuData</Token></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

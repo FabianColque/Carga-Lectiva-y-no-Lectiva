@@ -1,0 +1,10 @@
+<ConnectionInformation>
+	<DBName>GX_KB_Carga</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>LAP_CSP</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Models\Carga</Directory>
+	<DataFile>GX_KB_Carga.mdf</DataFile>
+	<LogFile>GX_KB_Carga_log.LDF</LogFile>
+	<HostName>LAP_CSP</HostName>
+</ConnectionInformation>

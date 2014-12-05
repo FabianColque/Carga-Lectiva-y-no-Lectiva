@@ -1,0 +1,103 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_7-53786</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>9</ObjId>
+<ObjName>Gx0040</ObjName>
+<ObjDesc>Selection List Categoria</ObjDesc>
+<ObjPgmName>Gx0040</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pcategoriaid</VarId>
+<VarName>&amp;pCategoriaId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>Categoria</TableName>
+<Description>Categoria</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>CategoriaId</AttriName>
+<Description>Categoria  Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICATEGORIA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>CategoriaId</AttriName>
+<Description>Categoria  Id</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ccategoriaid</VarId>
+<VarName>&amp;cCategoriaId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>CategoriaDescripcion</AttriName>
+<Description>Categoria Descripcion</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ccategoriadescripcion</VarId>
+<VarName>&amp;cCategoriaDescripcion</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>CategoriaSigla</AttriName>
+<Description>Categoria Sigla</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ccategoriasigla</VarId>
+<VarName>&amp;cCategoriaSigla</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>Categoria</TableName>
+<Description>Categoria</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>CategoriaId</AttriName>
+<Description>Categoria  Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>
